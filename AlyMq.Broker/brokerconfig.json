@@ -1,0 +1,37 @@
+{
+  "BrokerConfig": {
+    "Key": "16a6fff9-add1-225f-960f-d8ca1b9729af",
+    "Name": "DefaultBroker",
+    "Address": {
+      "Ip": "127.0.0.1",
+      "Port": 5051,
+      "Backlog": 200
+    },
+    "AdapterAddresses": [
+      {
+        "Ip": "127.0.0.1",
+        "Port": 6061,
+        "Backlog": 200
+      },
+      {
+        "Ip": "127.0.0.1",
+        "Port": 6062,
+        "Backlog": 200
+      }
+    ]
+  },
+  "Topics": [
+    {
+      "Key": "16a6fff9-add1-225f-960f-d8ca1b972901",
+      "BrokerKey": "16a6fff9-add1-225f-960f-d8ca1b9729af",
+      "Name": "CqrsCommandTopic",
+      "Tag": "Command"
+    },
+    {
+      "Key": "16a6fff9-add1-225f-960f-d8ca1b972902",
+      "BrokerKey": "16a6fff9-add1-225f-960f-d8ca1b9729af",
+      "Name": "CqrsEventTopic",
+      "Tag": "Command"
+    }
+  ]
+}

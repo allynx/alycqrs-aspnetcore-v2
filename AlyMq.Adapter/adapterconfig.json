@@ -1,0 +1,11 @@
+{
+  "AdapterConfig": {
+    "Key": "17a6fff9-add1-445f-960f-d7ca1b9729ef",
+    "Name": "DefaultAdapter",
+    "Adress": {
+      "Ip": "127.0.0.1",
+      "Port": 6061,
+      "Backlog": 200
+    }
+  }
+}
