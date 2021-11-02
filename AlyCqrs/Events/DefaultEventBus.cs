@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace AlyCqrs.Events
 {
-    public class EventBus : IEventBus
+    public class DefaultEventBus : IEventBus
     {
         private readonly IEventHandlerFactory _factory;
 
-        public EventBus(IEventHandlerFactory factory) {
+        public DefaultEventBus(IEventHandlerFactory factory) {
             _factory = factory;
         }
         public async Task PublishAsync<T>(T evnt) where T : Event

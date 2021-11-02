@@ -2,19 +2,20 @@
   "ProducerConfig": {
     "Key": "17a6fff9-add1-665f-960f-d7ca1b9729ef",
     "Name": "DefaultProducer",
-    "Adress": {
+    "Address": {
       "Ip": "127.0.0.1",
       "Port": 7071,
       "Backlog": 200
     },
-    "AdapterAdress": {
+    "AdapterAddress": {
       "Ip": "127.0.0.1",
       "Port": 6061,
       "Backlog": 200
     },
     "WithTopicKeys": [
       "16a6fff9-add1-225f-960f-d8ca1b972901",
-      "16a6fff9-add1-225f-960f-d8ca1b972902"
+      "16a6fff9-add1-225f-960f-d8ca1b972902",
+      "16a6fff9-add1-225f-960f-d8ca1b972903"
     ]
   }
 }

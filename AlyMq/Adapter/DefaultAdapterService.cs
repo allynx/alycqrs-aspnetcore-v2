@@ -17,7 +17,7 @@ namespace AlyMq.Adapter
     {
         private Socket _adapter;
         private TopicComparer _topicComparer;
-        private readonly IDictionary<Socket,KeyValuePair< BrokerInfo,HashSet<Topic>>> _brokers;
+        private readonly IDictionary<Socket,KeyValuePair<BrokerInfo,HashSet<Topic>>> _brokers;
         private readonly ILogger<DefaultAdapterService> _logger;
 
         public DefaultAdapterService(ILogger<DefaultAdapterService> logger, TopicComparer topicComparer)

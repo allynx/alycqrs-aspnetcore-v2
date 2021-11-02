@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace AlyCqrs.Commands
 {
-    public class CommandBus : ICommandBus
+    public class DefaultCommandBus : ICommandBus
     {
         private readonly ICommandHandlerFactory _factory;
 
-        public CommandBus(ICommandHandlerFactory factory)
+        public DefaultCommandBus(ICommandHandlerFactory factory)
         {
             _factory = factory;
         }

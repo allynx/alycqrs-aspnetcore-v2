@@ -12,11 +12,6 @@
         "Ip": "127.0.0.1",
         "Port": 6061,
         "Backlog": 200
-      },
-      {
-        "Ip": "127.0.0.1",
-        "Port": 6062,
-        "Backlog": 200
       }
     ]
   },
@@ -31,7 +26,13 @@
       "Key": "16a6fff9-add1-225f-960f-d8ca1b972902",
       "BrokerKey": "16a6fff9-add1-225f-960f-d8ca1b9729af",
       "Name": "CqrsEventTopic",
-      "Tag": "Command"
+      "Tag": "Event"
+    },
+    {
+      "Key": "16a6fff9-add1-225f-960f-d8ca1b972903",
+      "BrokerKey": "16a6fff9-add1-225f-960f-d8ca1b9729af",
+      "Name": "CqrsEventTopic",
+      "Tag": "synchronize"
     }
   ]
 }
